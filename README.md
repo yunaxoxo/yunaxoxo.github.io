@@ -10,7 +10,7 @@ University of the Philippines Los Baños
 
 ## Live Website
 
-[View My Portfolio](https://yourusername.github.io/your-portfolio-repo)
+[View My Portfolio](https://yunaxoxo.github.io/)
 
 _(Replace the link above with your actual GitHub Pages URL)_
 
