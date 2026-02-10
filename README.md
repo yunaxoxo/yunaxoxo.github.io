@@ -12,8 +12,6 @@ University of the Philippines Los Baños
 
 [View My Portfolio](https://yunaxoxo.github.io/)
 
-_(Replace the link above with your actual GitHub Pages URL)_
-
 ---
 
 ## How to Create a GitHub Page
