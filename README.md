@@ -21,7 +21,7 @@ University of the Philippines Los Baños
 3. Click on **Settings** > **Pages** (or in new UI: **Code and automation → Pages**).
 4. Under **Source**, select the branch (usually `main`) and the folder (`root` for project root).
 5. Click **Save**.
-6. GitHub will generate a link like `https://yourusername.github.io/your-portfolio-repo` for your live site.
+6. GitHub will generate a link like `https://yourusername.github.io/` for your live site.
 
 ---
 
