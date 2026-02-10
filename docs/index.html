@@ -3,10 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>My Somewhat not true Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
-    <p>My first portfolio!</p>
+    <nav class="navbar">
+      <div class="logo">Z</div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="intro-section">
+      <div class="bio-box">
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m <strong>Frendzo Charles Pelagio</strong>, currently studying
+          <strong>Computer Science</strong> at the
+          <strong>University of the Philippines Los Baños</strong>. I plan to
+          explore myself in <strong>AI and Data Science</strong>, but right now
+          I’m focused on improving my skills and pursuing my true passion:
+          creating a game of extraordinary quality.
+        </p>
+      </div>
+      <div class="photo-box">
+        <!--- Placeholder image-->
+        <img src="../images/photo.HEIC" alt="photo" />
+      </div>
+      <!-- Decorative shapes -->
+      <div class="accent-circle accent-1"></div>
+      <div class="accent-circle accent-2"></div>
+    </section>
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <!-- Python Development -->
+        <div class="skill-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">🐍</div>
+              <p class="skill-desc">Python Development</p>
+            </div>
+            <div class="card-back">
+              <p>Experience: 1 Year</p>
+              <p>Frameworks: Django, Flask</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Analysis (R) -->
+        <div class="skill-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">📊</div>
+              <p class="skill-desc">Data Analysis (R)</p>
+            </div>
+            <div class="card-back">
+              <p>Experience: 6 Months</p>
+              <p>Packages: Shiny</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">💻</div>
+              <p class="skill-desc">Web Development</p>
+            </div>
+            <div class="card-back">
+              <p>Experience: 1 Year</p>
+              <p>Technologies: HTML, CSS, JS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <a
+            href="https://github.com/axelerate2k/Game_Based_CMSC22.git"
+            class="project-link"
+            target="_blank"
+          >
+            <img src="../images/p1.png" alt="Project 1" />
+            <div class="overlay">View Project</div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a
+            href="https://github.com/yunaxoxo/Mitigation-App-For-30-Known-Projects.git"
+            class="project-link"
+            target="_blank"
+          >
+            <img src="../images/p2.png" alt="Project 2" />
+            <div class="overlay">View Project</div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a
+            href="https://github.com/yunaxoxo/Plant-Inventory-System.git"
+            class="project-link"
+            target="_blank"
+          >
+            <img src="../images/p3.png" alt="Project 3" />
+            <div class="overlay">View Project</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Zo Portfolio. All rights reserved.</p>
+        <div class="social-links">
+          <!-- Opens in a new tab -->
+          <a href="https://facebook.com/f.sharuru" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="mailto:zopelagio@email.com" target=""
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
