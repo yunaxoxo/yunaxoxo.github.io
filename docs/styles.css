@@ -367,6 +367,44 @@ body {
   transform: scale(1.02);
 }
 
+/* Autobiography */
+
+.autobiography-section {
+  padding: 80px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.autobiography-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #00adb5;
+}
+
+.autobiography-container {
+  display: flex;
+  justify-content: center;
+}
+
+.autobiography-box {
+  background: #1a1a1a;
+  color: #f5f5f5;
+  padding: 40px 50px;
+  border-radius: 14px;
+  max-width: 850px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
+  line-height: 1.8;
+  transition: 0.3s ease;
+}
+
+.autobiography-box:hover {
+  background: #00adb5;
+  color: #111;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0, 173, 181, 0.45);
+}
+
 /* Footer */
 
 .footer {
